@@ -1,6 +1,7 @@
 {
   "routes": {
     "/foo": {
+      "serve": "/about",
       "statusCode": -1
     }
   }
