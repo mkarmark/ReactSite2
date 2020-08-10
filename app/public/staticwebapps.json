@@ -10,7 +10,7 @@
       "serve": "/about",
     },
     "/bar": {
-      "serve": "/about",
+      "serve": "/about2",
     }
   }
 }
