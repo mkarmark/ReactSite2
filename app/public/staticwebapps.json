@@ -2,6 +2,7 @@
   "routes": {
     "/foo": {
       "serve": "/about",
+      "allowedRoles: ["01234567890123456789012345"]
     },
     "/bar": {
       "serve": "/about",
@@ -9,8 +10,5 @@
     "/foo/*": {
       "serve": "/about",
     },
-    "/bar": {
-      "serve": "/about2",
-    }
   }
 }
