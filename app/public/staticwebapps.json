@@ -2,7 +2,15 @@
   "routes": {
     "/foo": {
       "serve": "/about",
-      "statusCode": -1
+    },
+    "/bar": {
+      "serve": "/about",
+    },
+    "/foo/*": {
+      "serve": "/about",
+    },
+    "/bar": {
+      "serve": "/about",
     }
   }
 }
