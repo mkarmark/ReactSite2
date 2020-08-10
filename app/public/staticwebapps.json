@@ -1,7 +1,6 @@
 {
   "routes": {
-    "": {
-      "serve": "/about",
+    "/foo": {
       "statusCode": 301
     }
   }
