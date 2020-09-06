@@ -8,25 +8,13 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to out hackathon site!
+          Welcome to our hackathon site!!!
         </p>
         <a
           className="App-link"
-          href="/shoppingList/"
+          href="/api/GetList"
         >
           Let's try some functions!
-        </a>
-        <a 
-          className="App-link"
-          href="/about/"
-        >
-        Gated content
-        </a>
-		        <a 
-          className="App-link"
-          href="/.auth/login/facebook"
-        >
-        Log in with Facebook
         </a>
 
       </header>
