@@ -1,44 +1,82 @@
-{
-    "routes" : [
-        {
-            "route" : "/fictionalRoute/",
-            "serve" : "/admin/tools",
-            "statusCode" : 200
-        },
-        {
-            "route" : "/fictionalRoute2/",
-            "serve" : "/dummy2.txt",
-            "allowedRoles" : ["sleepy"],
-            "statusCode" : 404
-        },
-        {
-            "route" : "/fictionalRoute3/",
-            "serve" : "/dummy2.txt",
-            "allowedRoles" : ["sleepy2"],
-            "statusCode" : 404
-        },
-        {
-            "route" : "/admin/",
-            "serve" : "/dummy2.txt",
-            "allowedRoles" : ["authenticated", "admin"],
-            "statusCode" : 200
-        },
-        {
-            "route" : "/login/",
-            "serve" : "/about",
-            "allowedRoles" : ["anonymous"],
-            "statusCode" : 302
-        },
-        {
-            "route" : "/about/*",
-            "serve": "/about/",
-            "statusCode": 200
-        },
-        {
-            "route" : "/*",
-            "serve": "/index.html",
-            "statusCode": 200
-        }
-    ]
-}
-    
+{ 
+  "routes": [ 
+    {
+      "route": "/login",
+      "serve": "/.auth/login/github"
+    },
+    {
+       "route" : "/shoppingList/*",
+       "serve" : "/index.html",
+       "statusCode" : 200
+    },
+    {
+      "route": "/logout",
+      "serve": "/.auth/logout"
+    },
+    {
+      "route": "/foo1",
+      "statusCode": "200",
+      "serve": "/about"
+    },
+    {
+      "route": "/bar",
+      "statusCode": "301",
+      "allowedRoles": ["admin"],
+      "serve": "/about"
+    },
+    {
+      "route": "/baz",
+      "statusCode": "302",
+      "serve": "/about"
+    },
+    {
+      "route": "/about/*",
+      "statusCode": "200",
+      "allowedRoles": ["authenticated", "admin"],
+      "serve": "/about"
+    },
+    {
+      "route": "/admin",
+      "statusCode": "200",
+      "serve": "/admin"
+    },
+    {
+      "route": "/api/*",
+      "allowedRoles": ["anonymous", "authenticated", "admin"]
+    },
+    {
+      "route": "/.auth/complete",
+      "serve": "/about",
+      "statusCode": 429,
+    },
+    {
+      "route": "/me",
+      "serve": "/.auth/me"
+    },
+    {
+      "route": "/foo bar",
+      "serve": "/.auth/login/facebook"
+    },
+    {
+      "route": "foo2020",
+      "serve": "/foo1 bar1"
+    },
+    {
+      "route": "bar2020",
+      "serve": "/foo+bar",
+      "statusCode": 302
+    },
+    {      "route": "/News",
+      "serve": "/news",
+      "statusCode": 301
+},
+    {
+      "route": "/news",
+      "serve": "/news",
+      "statusCode": 200,
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "mimeTypes": {},
+  "defaultHeaders": {}
+} 
