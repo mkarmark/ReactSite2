@@ -75,8 +75,23 @@
       "serve": "/news",
       "statusCode": 200,
       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/",
+      "allowedRoles": ["megaAdmin"]
     }
   ],
-  "mimeTypes": {},
-  "defaultHeaders": {}
+  "platformErrorOverrides": [
+        {
+          "errorType": "NotFound",
+          "serve": "/news.html"
+        },
+     {
+          "errorType": "Unauthenticated",
+          "statusCode": "302",
+          "serve": "/.auth/login/aad"
+        }
+    ]
+  "mimeTypes": {".json": "text/html"},
+  "defaultHeaders": {"a":"b"}
 } 
