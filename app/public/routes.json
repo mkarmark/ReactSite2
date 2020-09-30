@@ -91,7 +91,7 @@
           "statusCode": "302",
           "serve": "/.auth/login/aad"
         }
-    ]
+    ],
   "mimeTypes": {".json": "text/html"},
   "defaultHeaders": {"a":"b"}
 } 
