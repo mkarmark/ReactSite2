@@ -2,7 +2,7 @@
   "routes": [ 
     {
       "route": "/login",
-      "serve": "/.auth/login/github"
+      "serve": "/.auth/login/twitter"
     },
     {
        "route" : "/shoppingList/*",
