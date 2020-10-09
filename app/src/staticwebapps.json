@@ -72,10 +72,6 @@
       "statusCode": 200,
       "allowedRoles": ["anonymous"]
     },
-    {
-        "route": "/",
-        "allowedRoles": ["super_admin"]
-    }
   ],
   "mimeTypes": { ".jpg": "application/json" },
   "globalHeaders": {
