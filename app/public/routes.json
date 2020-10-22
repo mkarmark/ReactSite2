@@ -80,5 +80,5 @@
         }
     ],
   "mimeTypes": {".json": "text/html"},
-  "defaultHeaders": {"a":"b"}
+  "defaultHeaders": {"a":"c"}
 } 
