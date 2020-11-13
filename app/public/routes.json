@@ -30,6 +30,15 @@
       "serve": "/about"
     },
     {
+      "route": "/.auth/login/aad",
+      "statusCode": "404"
+    },
+    {
+      "route": "/.auth/login/github",
+      "statusCode": "400",
+      "serve": "/news"
+    },
+    {
       "route": "/about/*",
       "statusCode": "200",
       "allowedRoles": ["authenticated", "admin"],
