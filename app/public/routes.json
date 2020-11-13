@@ -79,6 +79,6 @@
           "serve": "/news.html"
         }
     ],
-  "mimeTypes": {".json": "text/html"},
+  "mimeTypes": {".jpg": "text/html"},
   "defaultHeaders": {"a":"c"}
 } 
