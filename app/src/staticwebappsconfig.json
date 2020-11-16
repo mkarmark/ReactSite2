@@ -1,0 +1,66 @@
+{ 
+  "routes": [ 
+    {
+      "route": "/logint",
+      "rewrite": "/.auth/login/twitter"
+    },
+    {
+       "route" : "/shoppingList2/*",
+       "rewrite" : "/index.html"
+    },
+    {
+      "route": "/logout",
+      "rewrite": "/.auth/logout"
+    },
+    {
+      "route": "/foo1",
+      "redirect": "/about"
+    },
+    {
+      "route": "/bar",
+      "statusCode": "301",
+      "allowedRoles": ["admin"],
+      "redirect": "/about"
+    },
+    {
+      "route": "/baz",
+      "redirect": "/about"
+    },
+    {
+      "route": "/about/*",
+      "allowedRoles": ["authenticated", "admin"],
+      "rewrite": "/about"
+    },
+    {
+      "route": "/admin",
+      "rewrite": "/admin"
+    },
+    {
+      "route": "/me",
+      "redirect": "/.auth/me"
+    },
+    {
+      "route": "/.auth/login/aad",
+      "rewrite": "/news",
+      "statusCode": "404"
+    },
+    {
+      "route": "/api/PostList",
+      "methods": ["PUT", "POST"],
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "mimeTypes": { ".jpg": "application/json" },
+  "globalHeaders": {
+  "a": "b" },
+  "responseOverrides": {
+        "404": {
+          "statusCode": "200",
+          "rewrite": "/index.html"
+        },
+     "401": {
+          "statusCode": "302",
+          "redirect": "/.auth/login/google"
+        }
+    }
+} 
