@@ -52,7 +52,7 @@
   ],
   "mimeTypes": { ".jpg": "application/json" },
   "globalHeaders": {
-  "a": "b" },
+  "a": "c" },
   "responseOverrides": {
         "404": {
           "statusCode": "200",
