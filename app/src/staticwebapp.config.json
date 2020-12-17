@@ -23,7 +23,7 @@
       "redirect": "/about"
     },
     {
-      "route": "/baz",
+      "route": "/baz2",
       "redirect": "/about"
     },
     {
