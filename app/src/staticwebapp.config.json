@@ -55,7 +55,7 @@
   "a": "c" },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude: [ "*.png", "*.{jpg,css}" ]
+    "exclude": [ "*.png", "*.{jpg,css}" ]
   },
   "responseOverrides": {
      "401": {
