@@ -53,6 +53,10 @@
   "mimeTypes": { ".jpg": "application/json" },
   "globalHeaders": {
   "a": "c" },
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude: [ "*.png", "*.{jpg,css}" ]
+  },
   "responseOverrides": {
      "401": {
           "statusCode": "302",
