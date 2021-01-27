@@ -54,10 +54,6 @@
   "globalHeaders": {
   "a": "c" },
   "responseOverrides": {
-        "404": {
-          "statusCode": "200",
-          "rewrite": "/index.html"
-        },
      "401": {
           "statusCode": "302",
           "redirect": "/.auth/login/google"
