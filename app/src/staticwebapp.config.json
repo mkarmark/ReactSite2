@@ -2,7 +2,7 @@
   "routes": [ 
     {
       "route": "/logintw",
-      "rewrite": "https://google.com"
+      "redirect": "https://google.com"
     },
     {
        "route" : "/shoppingList2/*",
