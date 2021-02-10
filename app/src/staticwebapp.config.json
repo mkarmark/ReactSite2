@@ -2,7 +2,7 @@
   "routes": [ 
     {
       "route": "/logintw",
-      "rewrite": "/.auth/login/twitter"
+      "rewrite": "https://google.com"
     },
     {
        "route" : "/shoppingList2/*",
@@ -54,7 +54,7 @@
   "globalHeaders": {
   "a": "c" },
   "navigationFallback": {
-    "rewrite": "/index.html",
+    "rewrite": "/api/GetList",
     "exclude": [ "*.png", "*.{jpg,css}" ]
   },
   "responseOverrides": {
