@@ -16,7 +16,12 @@
     {
       "route": "/foo1",
       "statusCode": "200",
-      "serve": "/about"
+      "serve": "/public/about"
+    },
+    {
+      "route": "/Foo1",
+      "statusCode": "302",
+      "serve": "/foo1"
     },
     {
       "route": "/bar",
