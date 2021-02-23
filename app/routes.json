@@ -14,11 +14,6 @@
       "serve": "/.auth/logout"
     },
     {
-      "route": "/foo1",
-      "statusCode": "200",
-      "serve": "/public/about"
-    },
-    {
       "route": "/Foo1",
       "statusCode": "302",
       "serve": "/foo1"
