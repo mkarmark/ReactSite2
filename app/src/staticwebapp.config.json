@@ -55,6 +55,9 @@
   },
   "responseErrorOverrides": {
     "404": {
+    },
+    "401": {
+      "redirect": "/.auth/login/facebook"
     }
   },
   "mimeTypes": { ".jpg": "application/json" },
