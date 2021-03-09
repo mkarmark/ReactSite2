@@ -5,6 +5,10 @@
       "redirect": "https://www.google.com"
     },
     {
+      "route": "/login",
+      "rewrite": "/.auth/login/facebook"
+    },
+    {
       "route": "/logout1",
       "rewrite": "/.auth/logout"
     },
