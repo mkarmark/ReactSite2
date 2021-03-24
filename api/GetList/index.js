@@ -7,12 +7,12 @@ module.exports = async function (context, req) {
     body: 'Hello, world.',
         cookies: [
       {
-        name: 'cookiea',
-        value: 'valueb'
+        name: 'cookie1',
+        value: 'value2'
       },
       {
         name: 'cookie2',
-        value: 'valued'
+        value: 'value3'
       }
     ]
     }
