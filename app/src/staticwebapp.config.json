@@ -7,7 +7,7 @@
     },
     {
       "route": "/api/*",
-      "methods": ["POST"],
+      "methods": ["DELETE"],
       "rewrite": "/api/GetList"
     },
     {
