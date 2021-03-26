@@ -1,6 +1,20 @@
 { 
   "routes": [ 
     {
+      "route": "/api/*:,
+      "methods": ["GET"],
+      "rewrite": "/api/GetList"
+    },
+    {
+      "route": "/api/*:,
+      "methods": ["POST"],
+      "rewrite": "/api/GetList"
+    },
+    {
+      "route": "/api/GetList",
+      "rewrite": "/api/GetMessage"
+    },
+    {
       "route": "/*.jpg",
       "redirect": "https://www.google.com"
     },
@@ -15,6 +29,10 @@
     {
       "route": "/foo1",
       "redirect": "https://google.com/hi"
+    },
+    {
+      "route": "/Foo1",
+      "redirect": "https://google.com/foo"
     },
     {
       "route": "/bar",
