@@ -31,7 +31,7 @@
       "redirect": "https://google.com/hi"
     },
     {
-      "route": "/Foo1",
+      "route": "/Foo3",
       "redirect": "https://google.com/foo"
     },
     {
