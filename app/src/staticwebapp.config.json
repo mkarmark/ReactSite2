@@ -6,11 +6,6 @@
       "rewrite": "/api/GetList"
     },
     {
-      "route": "/api/*",
-      "methods": ["DELETE"],
-      "rewrite": "/api/GetList"
-    },
-    {
       "route": "/api/GetList",
       "rewrite": "/api/GetMessage"
     },
