@@ -28,7 +28,7 @@
     },
     {
       "route": "/foo1",
-      "redirect": "https://google.com/hi"
+      "redirect": "https://google.com/hi2"
     },
     {
       "route": "/Foo3",
