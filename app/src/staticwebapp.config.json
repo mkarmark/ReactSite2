@@ -76,5 +76,20 @@
   },
   "mimeTypes": { ".jpg": "application/json" },
   "globalHeaders": {
-  "a": "b" }
+  "a": "b" },
+   "auth": {
+    "identityProviders": {
+      "facebook": {
+        "enabled": true,
+        "registration": {
+          "appId": "684017655414345",
+          "appSecretSettingName": "FB_SECRET"
+        },
+        "login": {
+          "scopes": []
+        },
+        "userDetailsClaim": "email"
+      }
+    }
+  }
 } 
