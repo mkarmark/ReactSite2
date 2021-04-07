@@ -83,11 +83,18 @@
         "enabled": true,
         "registration": {
           "appId": "684017655414345",
-          "appSecretSettingName": "FB_SECRET"
+          "appSecretSettingName": "FB_SECRET_SUPER"
         },
         "login": {
           "scopes": []
         }
+      },
+      "google": {
+        "enabled": true,
+        "registration": {
+          "clientId": "456451366178-oneofrpdmomk72vn6drk3cv5f0na3qjs.apps.googleusercontent.com",
+          "clientSecretSettingName": "GOOGLE_SECRET"
+        },
       }
     }
   }
