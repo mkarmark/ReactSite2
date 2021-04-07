@@ -87,8 +87,7 @@
         },
         "login": {
           "scopes": []
-        },
-        "userDetailsClaim": "email"
+        }
       }
     }
   }
