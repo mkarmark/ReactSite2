@@ -1,11 +1,6 @@
 { 
   "routes": [ 
     {
-      "route": "/api/*",
-      "methods": ["GET"],
-      "rewrite": "/api/GetList"
-    },
-    {
       "route": "/api/GetList",
       "rewrite": "/api/GetMessage"
     },
