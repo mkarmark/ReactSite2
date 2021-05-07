@@ -45,7 +45,7 @@
     },
     {
       "route": "/admin2",
-      "redirect": "/admin"
+      "rewrite": "/admin"
     },
     {
       "route": "/me",
