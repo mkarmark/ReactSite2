@@ -31,7 +31,7 @@
       "redirect": "/about"
     },
     {
-      "route": "/baz",
+      "route": "/Bar",
       "redirect": "/about"
     },
     {
@@ -41,7 +41,11 @@
     },
     {
       "route": "/admin",
-      "rewrite": "/admin"
+      "rewrite": "/admin/"
+    },
+    {
+      "route": "/admin2",
+      "redirect": "/admin/"
     },
     {
       "route": "/me",
