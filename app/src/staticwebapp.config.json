@@ -77,7 +77,7 @@
         "enabled": true,
         "registration": {
           "openIdIssuer": "https://login.microsoftonline.com/9188040d-6c67-4c5b-b112-36a304b66dad/v2.0",
-          "clientId": "cf978515-3bd2-4632-9a88-84610d244ada",
+          "clientId": "0e8228e8-0e51-405c-a062-03425393e2a7",
           "clientSecretSettingName": "AAD_SECRET"
         }
       },
