@@ -94,10 +94,8 @@
         "registration": {
           "clientId": "bd5bf1b4c2c1abdcc1db",
           "clientSecretSettingName": "GITHUB_SECRET"
-        },
-        "login": {
-          "scopes": []
-        }      },
+        }
+      },
       "google": {
         "enabled": true,
         "registration": {
