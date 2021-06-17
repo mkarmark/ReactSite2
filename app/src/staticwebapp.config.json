@@ -5,10 +5,6 @@
       "rewrite": "/api/GetMessage"
     },
     {
-      "route": "/*.jpg",
-      "redirect": "https://www.google.com"
-    },
-    {
       "route": "/login",
       "rewrite": "/.auth/login/facebook"
     },
