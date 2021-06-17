@@ -64,7 +64,6 @@
       "redirect": "/.auth/login/facebook"
     }
   },
-  "mimeTypes": { ".jpg": "application/json" },
   "globalHeaders": {
   "a": "b" },
    "auth": {
