@@ -57,6 +57,9 @@
     "rewrite": "/index.html",
     "exclude": [ "*.{png}" ]
   },
+  "mimeTypes": {
+    ".png.br": "text/json"
+  },
   "responseErrorOverrides": {
     "404": {
     },
